@@ -482,7 +482,7 @@
             $.ajax({
                 url:      self.url,
                 cache:    false,
-                type:     method,
+                type:     "GET",
                 dataType: "json"
             }).done(function (data) {
 
